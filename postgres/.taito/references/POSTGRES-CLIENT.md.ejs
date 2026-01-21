@@ -9,10 +9,10 @@ The client script is `scripts/postgres-client.ts`. Bun loads `.env` from the pro
 ## Usage
 Run from the project root so `.env` is applied:
 
-`bunx --bun scripts/postgres-client.ts --query "SELECT 1"`
+`bun scripts/postgres-client.ts --query "SELECT 1"`
 
 Use a SQL file:
-`bunx --bun scripts/postgres-client.ts --file ./sql/users.sql`
+`bun scripts/postgres-client.ts --file ./sql/users.sql`
 
 ## Options
 - `--query`, `-q`: SQL query string.

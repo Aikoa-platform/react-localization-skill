@@ -16,13 +16,13 @@ Use this skill to run Postgres queries via Bun's built-in SQL client.
 - `POSTGRES_READ_ONLY`: "true" or "false" (default "true"). When "true", the client blocks mutating statements.
 
 ## Run the client
-Use bunx with the Bun runtime:
+Use bun directly to run the client:
 
-`bunx --bun scripts/postgres-client.ts --query "SELECT 1"`
+`bun scripts/postgres-client.ts --query "SELECT 1"`
 
 Examples:
-`bunx --bun scripts/postgres-client.ts --query "SELECT NOW() AS time"`
-`bunx --bun scripts/postgres-client.ts --file ./sql/users.sql`
+`bun scripts/postgres-client.ts --query "SELECT NOW() AS time"`
+`bun scripts/postgres-client.ts --file ./sql/users.sql`
 
 ## Output
 The client prints JSON by default. Use `--format table` for a table view.

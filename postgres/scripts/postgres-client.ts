@@ -92,8 +92,8 @@ function printUsage(): void {
   console.log(`Postgres client (Bun SQL)
 
 Usage:
-  bunx --bun scripts/postgres-client.ts --query "SELECT 1"
-  bunx --bun scripts/postgres-client.ts --file ./path/to/query.sql
+  bun scripts/postgres-client.ts --query "SELECT 1"
+  bun scripts/postgres-client.ts --file ./path/to/query.sql
 
 Options:
   --query, -q   SQL query string
