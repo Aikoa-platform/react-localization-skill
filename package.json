@@ -1,0 +1,14 @@
+{
+  "name": "@aikoa/react-localization-skill",
+  "version": "0.0.1",
+  "description": "A skill for Aikoa to localize React components",
+  "main": "react-localization/SKILL.md",
+  "keywords": [
+    "aikoa",
+    "react",
+    "localization",
+    "skill"
+  ],
+  "author": "Daniel Dunderfelt <daniel@aikoa.ai>",
+  "license": "MIT"
+}
