@@ -1,14 +1,14 @@
 {
-  "name": "@aikoa/react-localization-skill",
+  "name": "@aikoa-platform/react-localization-skill",
   "version": "0.0.1",
-  "description": "A skill for Aikoa to localize React components",
-  "main": "react-localization/SKILL.md",
+  "description": "A skill for localizing hardcoded user-facing strings in React applications",
   "keywords": [
     "aikoa",
     "react",
     "localization",
-    "skill"
+    "skill",
+    "agentskills"
   ],
-  "author": "Daniel Dunderfelt <daniel@aikoa.ai>",
+  "author": "Daniel Dunderfelt <daniel.dunderfelt@aikoa.ai>",
   "license": "MIT"
 }
