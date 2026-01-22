@@ -23,7 +23,7 @@ This is a customizable skill for the [Taito CLI](https://github.com/danieldunder
 Install and customize for your project:
 
 ```bash
-taito add aikoa-platform/react-localization-skill
+taito add aikoa-platform/agent-skills
 ```
 
 You'll be prompted to configure:
@@ -56,7 +56,7 @@ SOURCE_GLOB = "src/**/*.{ts,tsx}"
 Then install:
 
 ```bash
-taito add aikoa-platform/react-localization-skill --config ./localization-config.toml
+taito add agent-skills --config ./localization-config.toml
 ```
 
 ## Usage
